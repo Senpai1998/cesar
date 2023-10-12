@@ -9,7 +9,7 @@ function App() {
   const key = CryptoJS.enc.Utf8.parse('unaclaveultrasecreta');
   const iv = CryptoJS.enc.Utf8.parse('vectordeinicializacion');
 
-  const [first, setfirst] = useState("")
+  const [first, setfirst] = useState(" 54")
   const [ciphertext, setciphertext] = useState("");
   const [second, setsecond] = useState("")
   const encrypt =()=>{
